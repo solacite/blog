@@ -22,5 +22,5 @@ body {
 
 @font-face {
     font-family: 'Source Code Pro';
-    src: url('Source_Code_pro/static/SourceCodePro-Regular.ttf') format('truetype');
+    src: url('Source_Code_Pro/static/SourceCodePro-Regular.ttf') format('truetype');
 }
