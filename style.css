@@ -1,3 +1,26 @@
 img {
     width: 200px;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Source Code Pro';
+    color: black;
+
+    background-image: linear-gradient(to bottom, rgb(250, 233, 255) , rgb(216, 186, 253));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('Source_Code_pro/static/SourceCodePro-Regular.ttf') format('truetype');
+}
