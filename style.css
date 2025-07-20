@@ -8,6 +8,37 @@ html, body {
     padding: 0;
 }
 
+/* text formatting */
+
+.titleText, .subTitleText {
+    margin: 0;
+    padding: 0;
+}
+
+.titleText {
+    font-size: 150px;
+}
+
+.subTitleText {
+    font-size: 25px;
+    color: rgb(131, 115, 149)
+}
+
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.centerScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* general formatting */
+
 body {
     text-align: center;
     font-family: 'Source Code Pro';
