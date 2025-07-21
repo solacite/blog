@@ -1,0 +1,33 @@
+.titleText, .subTitleText {
+    margin: 0;
+    padding: 0;
+}
+
+.titleText {
+    font-size: 150px;
+    position: relative;
+}
+
+.subTitleText {
+    font-size: 25px;
+    color: rgb(0, 0, 0)
+}
+
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+
+.centerScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+}
