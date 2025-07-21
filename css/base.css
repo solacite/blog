@@ -9,7 +9,7 @@ body {
     text-align: center;
     font-family: 'Source Code Pro';
     color: black;
-    background-image: linear-gradient(to bottom, #fae9ff , #d8bafd);
+    background-image: linear-gradient(to bottom, #fae9ff, #d8bafd, #c495fd);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

@@ -23,8 +23,21 @@
 
 /* images?! */
 
+.smallIcon {
+    position: static;
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+}
+
 .icon {
     position: static;
     width: 250px;
+    height: auto;
+}
+
+.titleIcon {
+    position: static;
+    width: 500px;
     height: auto;
 }
