@@ -43,11 +43,9 @@ body {
 .siteFooter {
     background-color: #ffffff;
     color: black;
-    padding: 40px 20px;
     text-align: center;
     font-family: 'Source Code Pro';
     margin-top: 100px;
-    border-top: 2px solid;
 }
 
 #aboutBloggy {
