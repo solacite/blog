@@ -1,9 +1,21 @@
-/* the general stuff */
+/* fonts */
 
 @font-face {
     font-family: 'Source Code Pro';
-    src: url('../Source_Code_Pro/static/SourceCodePro-Regular.ttf') format('truetype');
-    }
+    src: url('../fonts/Source_Code_Pro/static/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Code Pro Bold';
+    src: url('../fonts/Source_Code_Pro/static/SourceCodePro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mochiy Pop One';
+    src: url('../fonts/Mochiy_Pop_One/MochiyPopOne-Regular.ttf') format('truetype');
+}
+
+/* the general stuff */
 
 body {
     text-align: center;
@@ -18,9 +30,28 @@ body {
 
 /* sections */
 
+.box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 32px;
+    width: 1000px;
+    max-width: 95vw;
+    height: 800px;
+    max-height: 75vh;
+}
+
+.siteFooter {
+    background-color: #ffffff;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Source Code Pro';
+    margin-top: 100px;
+    border-top: 2px solid;
+}
+
 #aboutBloggy {
     height: 100vh;
-    background-color: #e7cffe;
     display: flex;
     justify-content: center;
     align-items: center;

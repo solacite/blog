@@ -10,7 +10,10 @@
 
 .subTitleText {
     font-size: 25px;
-    color: rgb(0, 0, 0)
+    color: #ffffff;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-family: 'Mochiy Pop One';
 }
 
 .titleBlock {
@@ -30,4 +33,8 @@
 .textBlock {
     display: flex;
     flex-direction: column;
+}
+
+.rightSpacing {
+    margin-right: 100px;
 }
