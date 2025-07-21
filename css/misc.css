@@ -8,10 +8,9 @@
     padding: 15px 30px;
     font-family: 'Source Code Pro';
     font-size: 20px;
-    /*background-color: #d8bafd;*/
     background-image: linear-gradient(to bottom, #fae9ff , #d8bafd);
+    transition: box-shadow 0.3s ease, opacity 2s ease;
     color: black;
-    opacity: 0;
     outline: none;
     border: none;
     border-radius: 10px;
@@ -19,13 +18,7 @@
 
 .goBtn:hover {
     box-shadow: 0 0 5px 2.5px #ffffff;
-    transition: box-shadow 0.3s ease;
     cursor: pointer;
-}
-
-#scrollBtn.hidden {
-    opacity: 0;
-    pointer-events: none;
 }
 
 /* images?! */

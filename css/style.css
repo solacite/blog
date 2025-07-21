@@ -1,4 +1,4 @@
 @import url('./base.css');
 @import url('./formatting.css');
 @import url('./misc.css');
-@import url('./animation.css');
+@import url('./animation.css');transition: opacity 0.4s ease;
