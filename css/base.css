@@ -1,3 +1,22 @@
+/* the general stuff */
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../Source_Code_Pro/static/SourceCodePro-Regular.ttf') format('truetype');
+    }
+
+body {
+    text-align: center;
+    font-family: 'Source Code Pro';
+    color: black;
+
+    background-image: linear-gradient(to bottom, #fae9ff , #d8bafd);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
 /* text formatting */
 
 .titleText, .subTitleText {
@@ -12,7 +31,7 @@
 
 .subTitleText {
     font-size: 25px;
-    color: rgb(131, 115, 149)
+    color: rgb(0, 0, 0)
 }
 
 .titleBlock {
@@ -34,55 +53,6 @@
     flex-direction: column;
 }
 
-/* animation */
-
-.fadeIn {
-    opacity: 0;
-    animation: fadeInAnimation 0.5s ease-in forwards;
-}
-
-.subTitleText.fadeIn {
-    animation-delay: 0.25s;
-}
-
-@keyframes fadeInAnimation {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-/* the general stuff */
-
-body {
-    text-align: center;
-    font-family: 'Source Code Pro';
-    color: black;
-
-    background-image: linear-gradient(to bottom, #fae9ff , #d8bafd);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100%;
-}
-
-@font-face {
-    font-family: 'Source Code Pro';
-    src: url('Source_Code_Pro/static/SourceCodePro-Regular.ttf') format('truetype');
-}
-
-img {
-    width: 200px;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 /* beep boop buttons */
 
 .goDownBtn {
@@ -93,13 +63,17 @@ html, body {
     padding: 15px 30px;
     font-family: 'Source Code Pro';
     font-size: 20px;
-    background-color: #d8bafd;
+    /*background-color: #d8bafd;*/
+    background-image: linear-gradient(to bottom, #fae9ff , #d8bafd);
     color: black;
     opacity: 0;
+    outline: none;
+    border: none;
+    border-radius: 10px;
 }
 
 .goDownBtn:hover {
-    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px 2.5px #ffffff;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
 }

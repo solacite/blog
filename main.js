@@ -7,6 +7,7 @@ window.addEventListener('load', () => {
                 top: window.innerHeight,
                 behavior: 'smooth'
             })
+            btn.style.display = 'none';
         })
     }
 });
