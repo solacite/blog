@@ -45,6 +45,9 @@ html, body {
     max-width: 95vw;
     height: 800px;
     max-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .siteFooter {
