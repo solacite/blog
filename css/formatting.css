@@ -35,8 +35,10 @@
     flex-direction: column;
 }
 
-.rightSpacing {
-    margin-right: 100px;
+.giftWrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .linkText {
