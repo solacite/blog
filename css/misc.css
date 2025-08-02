@@ -41,3 +41,7 @@
     width: 500px;
     height: auto;
 }
+
+.pulseVibe {
+    animation: pulsingAnim 5s infinite;
+}
