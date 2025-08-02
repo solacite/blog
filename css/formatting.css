@@ -42,3 +42,18 @@
 .linkText {
     color: #cb96ff;
 }
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-container {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 20px;
+}
+
+.grid-item {
+    padding: 10px;
+}

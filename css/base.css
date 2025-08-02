@@ -26,12 +26,14 @@ body {
     background-attachment: fixed;
     background-size: cover;
     min-height: 100%;
+    max-width: 100%;
 }
 
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 /* sections */
@@ -40,7 +42,6 @@ html, body {
     background-color: #ffffff;
     padding: 40px;
     border-radius: 32px;
-    width: 1000px;
     max-width: 95vw;
     height: 800px;
     max-height: 75vh;
@@ -54,7 +55,7 @@ html, body {
     margin-top: 100px;
     box-sizing: border-box;
     padding: 40px 0;
-    width: 100vw;
+    width: 100%;
 }
 
 #aboutBloggy {
@@ -62,5 +63,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px
+    font-size: 40px;
+    max-width: 100%;
 }
