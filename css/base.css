@@ -17,17 +17,13 @@
 
 /* the general stuff */
 
-body {
-    text-align: center;
-    font-family: 'Source Code Pro';
-    color: black;
-    background-image: linear-gradient(to bottom, #fae9ff, #d8bafd, #c495fd);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100%;
-    max-width: 100%;
+:root {
+    --font-primary: 'Source Code Pro', monospace;
+    --bg-gradient: linear-gradient(to bottom, #fae9ff, #d8bafd, #c495fd);
+    --color-text-dark: #000000;
 }
+
+/* styling! */
 
 html, body {
     height: 100%;
@@ -36,36 +32,13 @@ html, body {
     max-width: 100%;
 }
 
-/* sections */
-
-.box {
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 32px;
-    max-width: 95vw;
-    height: 800px;
-    max-height: 75vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.siteFooter {
-    background-color: #ffffff;
-    color: black;
+body {
     text-align: center;
-    font-family: 'Source Code Pro';
-    margin-top: 100px;
-    box-sizing: border-box;
-    padding: 40px 0;
-    width: 100%;
-}
-
-#aboutBloggy {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
+    font-family: var(--font-primary);
+    color: var(--color-text-dark);
+    background-image: var(--bg-gradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     max-width: 100%;
 }

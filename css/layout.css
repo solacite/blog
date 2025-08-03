@@ -83,3 +83,36 @@
         font-size: 0.8em;
     }
 }
+
+/* sections */
+
+.box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 32px;
+    max-width: 95vw;
+    height: 800px;
+    max-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.siteFooter {
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    font-family: 'Source Code Pro';
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 40px 0;
+    width: 100%;
+}
+
+#aboutBloggy {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
