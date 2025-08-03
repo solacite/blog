@@ -7,6 +7,18 @@
     align-items: center;
     justify-content: center;
     grid-column: 1 / -1;
+    margin-bottom: 50px;
+}
+
+.invisBox {
+    padding: 40px;
+    border-radius: 32px;
+    max-width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / -1;
+    margin-bottom: 50px;
 }
 
 .siteFooter {
@@ -17,4 +29,45 @@
     box-sizing: border-box;
     padding: 40px 0;
     width: 100%;
+}
+
+/* project gallery */
+
+.project-box {
+    background: linear-gradient(135deg, #ffffff, #f8f9ff);
+    padding: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.project-box:hover {
+    transform: rotateY(5deg) rotateX(5deg) translateY(-10px);
+    background: linear-gradient(135deg, #e8d5ff, #d4c5ff);
+    border-color: #cb96ff;
+    box-shadow: 0 15px 30px rgba(203, 150, 255, 0.3);
+}
+
+.project-box:active {
+    transform: rotateY(2deg) rotateX(2deg) translateY(-5px);
+}
+
+/* project layout */
+
+.projects-section {
+    padding: 80px 20px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
