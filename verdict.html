@@ -5,6 +5,45 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+    <audio id="backgroundMusic" controls loop>
+        <source src="audio/life.mp3" type="audio/mpeg">
+        <source src="audio/life.wav" type="audio/wav">
+    </audio>
+
+    <script>
+        const audio = document.getElementById('backgroundMusic');
+        let audioStartTime = 0;
+
+        // check prev page
+        window.addEventListener('load', function() {
+            const shouldPlay = sessionStorage.getItem('musicPlaying');
+            const savedTime = sessionStorage.getItem('musicTime');
+            
+            if (shouldPlay === 'true' && audio) {
+                audio.currentTime = savedTime || 0;
+                audio.play();
+            }
+        });
+
+        // save audio
+        window.addEventListener('beforeunload', function() {
+            if (audio && !audio.paused) {
+                sessionStorage.setItem('musicPlaying', 'true');
+                sessionStorage.setItem('musicTime', audio.currentTime);
+            } else {
+                sessionStorage.setItem('musicPlaying', 'false');
+            }
+        });
+
+        // music on click
+        document.addEventListener('click', function() {
+            if (audio && audio.paused) {
+                audio.play();
+                sessionStorage.setItem('musicPlaying', 'true');
+            }
+        }, { once: true });
+    </script>
+
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="nav-logo">bloggy</a>
