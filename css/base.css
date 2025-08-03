@@ -20,7 +20,8 @@
 :root {
     --font-primary: 'Source Code Pro', monospace;
     --bg-gradient: linear-gradient(to bottom, #fae9ff, #d8bafd, #c495fd);
-    --color-text-dark: #000000;
+    --color-dark: #000000;
+    --color-white: #ffffff;
 }
 
 /* styling! */
@@ -35,7 +36,7 @@ html, body {
 body {
     text-align: center;
     font-family: var(--font-primary);
-    color: var(--color-text-dark);
+    color: var(--color-dark);
     background-image: var(--bg-gradient);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -61,6 +62,10 @@ body {
     margin-top: 15px;
     letter-spacing: 2px;
     font-family: 'Mochiy Pop One';
+}
+
+p {
+    font-size: 20px;
 }
 
 .linkText {

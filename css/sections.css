@@ -1,20 +1,17 @@
 .box {
-    background-color: #ffffff;
+    background-color: var(--color-white);
     padding: 40px;
     border-radius: 32px;
     max-width: 95vw;
-    height: 800px;
-    max-height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .siteFooter {
-    background-color: #ffffff;
-    color: black;
+    background-color: var(--color-white);
+    color: var(--color-dark);
     text-align: center;
-    font-family: 'Source Code Pro';
     margin-top: 100px;
     box-sizing: border-box;
     padding: 40px 0;
