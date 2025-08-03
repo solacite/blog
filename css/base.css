@@ -42,3 +42,43 @@ body {
     background-size: cover;
     max-width: 100%;
 }
+
+/* global typography */
+
+.titleText, .subTitleText {
+    margin: 0;
+    padding: 0;
+}
+
+.titleText {
+    font-size: 150px;
+    position: relative;
+}
+
+.subTitleText {
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-family: 'Mochiy Pop One';
+}
+
+.linkText {
+    color: #cb96ff;
+}
+
+/* responsive typography */
+
+@media (max-width: 1080px) {
+    h1 {
+        font-size: 2cm;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+}

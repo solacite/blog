@@ -21,25 +21,24 @@
     cursor: pointer;
 }
 
-/* images?! */
-
-.smallIcon {
-    position: static;
-    width: 150px;
-    height: auto;
-    margin-top: 15px;
-}
+/* icons?! */
 
 .icon {
     position: static;
-    width: 250px;
     height: auto;
 }
 
-.titleIcon {
-    position: static;
+.icon--small {
+    width: 150px;
+    margin-top: 15px;
+}
+
+.icon--medium {
+    width: 250px;
+}
+
+.icon--large {
     width: 500px;
-    height: auto;
 }
 
 /* animations! */

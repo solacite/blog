@@ -1,118 +1,53 @@
-.titleText, .subTitleText {
-    margin: 0;
-    padding: 0;
-}
-
-.titleText {
-    font-size: 150px;
-    position: relative;
-}
-
-.subTitleText {
-    font-size: 25px;
-    color: #ffffff;
-    margin-top: 15px;
-    letter-spacing: 2px;
-    font-family: 'Mochiy Pop One';
-}
-
-.titleBlock {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: relative;
+/* container + wrapper */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .centerScreen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
 }
 
 .textBlock {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 400px;
 }
 
 .giftWrap {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.linkText {
-    color: #cb96ff;
-}
-
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
+/* grid */
 .grid-container {
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 20px;
 }
 
 .grid-item {
-    padding: 10px;
+  padding: 10px;
 }
 
+/* responsive grid */
 @media (max-width: 1080px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-
-    .grid-item {
-        padding: 5px;
-    }
-
-    h1 {
-        font-size: 2cm;
-    }
-
-    h2 {
-        font-size: 1em;
-    }
-
-    p {
-        font-size: 0.8em;
-    }
-}
-
-/* sections */
-
-.box {
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 32px;
-    max-width: 95vw;
-    height: 800px;
-    max-height: 75vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.siteFooter {
-    background-color: #ffffff;
-    color: black;
-    text-align: center;
-    font-family: 'Source Code Pro';
-    margin-top: 100px;
-    box-sizing: border-box;
-    padding: 40px 0;
-    width: 100%;
-}
-
-#aboutBloggy {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .grid-item {
+    padding: 5px;
+  }
 }
